@@ -32,10 +32,10 @@ namespace Lab3pnyavy
             MyQueue<string> myQueue = new MyQueue<string>();
 
             // Добавляем элементы
-            myQueue.Enqueue("1");
-            myQueue.Enqueue("2");
-            myQueue.Enqueue("3");
-            myQueue.Enqueue("4");
+            myQueue.Enqueue("Kate");
+            myQueue.Enqueue("Sam");
+            myQueue.Enqueue("Alice");
+            myQueue.Enqueue("Tom");
 
             var qhead = myQueue.Dequeue();
             Console.WriteLine(qhead);    // 1
